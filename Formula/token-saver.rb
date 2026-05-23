@@ -49,6 +49,6 @@ class TokenSaver < Formula
   end
 
   test do
-    assert_match "token-saver #{version}", shell_output("#{bin}/token-saver --version")
+    assert_match "token-saver #{version}", shell_output("#{bin}/token-saver version")
   end
 end
