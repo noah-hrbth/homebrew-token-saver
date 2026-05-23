@@ -1,24 +1,24 @@
 class TokenSaver < Formula
   desc "Transparent CLI proxy that compresses verbose command output for LLM agents"
   homepage "https://github.com/noah-hrbth/token-saver"
-  version "0.3.0"
+  version "0.4.0"
   license "MIT"
 
   on_macos do
     on_arm do
       url "https://github.com/noah-hrbth/token-saver/releases/download/v#{version}/token-saver-aarch64-apple-darwin.tar.gz"
-      sha256 "4f584e63a264bfd096d9f1a00949ec707fda7ae3cd1153d9a010c73c1eed48f8"
+      sha256 "94ba86f3cf8c7ecf28a3888e73d3ba38ac5b83f204a1c7a2d6cdd81491f61d85"
     end
     on_intel do
       url "https://github.com/noah-hrbth/token-saver/releases/download/v#{version}/token-saver-x86_64-apple-darwin.tar.gz"
-      sha256 "54c4a5ba427880f22d74c5333ae269195e7fd65075353d04b533e3971874ce79"
+      sha256 "1db68849934ac8fd77133dd1304efcdb05fc8ff0bb6a6455e3b26c6ab5630b37"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/noah-hrbth/token-saver/releases/download/v#{version}/token-saver-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "ee7c70e2565214c92e6920d2fb5a065b11e38b6476fd9b4790f0f53fcffe72d2"
+      sha256 "a78d9b63b60fbc767f4b320c4dcdcaa2c11fdb871a72968a1d816d6d6baa56ce"
     end
   end
 
